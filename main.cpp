@@ -11,7 +11,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
     hit_record rec;
 
     if (depth <= 0)
-        return color(0, 0, 0);
+        return {0, 0, 0};
 
     if (world.hit(r, 0.001, infinity, rec)) {
         point3 target = rec.p + rec.normal + random_unit_vector();

@@ -36,7 +36,7 @@ class lambertian : public material {
         color albedo;
 };
 
-class metal : public materal {
+class metal : public material {
     public:
         metal(const color& a) : albedo(a) {}
 

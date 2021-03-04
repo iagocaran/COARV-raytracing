@@ -4,7 +4,7 @@ A C++ raytracing engine project for the COARV subject at École Centrale de Nant
 
 ## Introduction
 
-This project is the result of the tutorial "Create your own FPS in WebGL" available on GitHub proposed as of the COARV subject. 
+This project is the result of the tutorial "Ray Tracing in One Weekend" available on GitHub proposed as of the COARV subject. 
 At the end, the last image took me half a day, so I spent some time researching about multithreading in C++ and decided to experiment with the std::future, after some modifications on the core loop I got it to render in less than an hour and a half.
 
 ## Getting started
